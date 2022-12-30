@@ -10,7 +10,7 @@ function Router() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/chart" element={<Chart />} />
+      <Route path="/chart/:id" element={<Chart />} />
     </Routes>
   );
 }

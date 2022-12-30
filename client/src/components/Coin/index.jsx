@@ -24,7 +24,7 @@ const Coin = ({
 }) => {
   const navigate = useNavigate();
   return (
-    <Wrapper onClick={() => navigate("/chart")}>
+    <Wrapper onClick={() => navigate(`/chart/${symbol.toUpperCase()}`)}>
       <Row>
         <CoinWrapper>
           <Icon src={image} alt="crypto" />

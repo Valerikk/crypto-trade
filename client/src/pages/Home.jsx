@@ -13,6 +13,7 @@ const Home = () => {
       )
       .then((res) => setCoins(res.data));
   }, []);
+  console.log(coins);
   return (
     <PageWrapper>
       <Header></Header>
